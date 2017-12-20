@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" tpe="text/css" href="css/estilosblog.css" media="all"/>
+  <title>Galeria Flexbox</title>
+      
+	  <nav>
+	     <ul>
+		   <li><a tabindex="1" title="Lanini Blog"
+		          href="index.html"> Início </a></li>
+		   <li><a tabindex="2"title="Galeria" href="galeria.html"> Galeria </a></li>
+		   <li><a tabindex="4"title="Game of Thrones" href="got.html"> Game of Thrones </a></li>
+		 </ul>
+	  </nav>
+  <style>
+  
+
+body { margin: 0; background: #333; }
+	section { 
+		padding: .5vw;
+		flex-flow: row wrap; 
+		display: flex;
+	}
+	section div { 
+		flex: auto; 
+		width: 200px; 
+		margin: .5vw; 
+	}
+	section div img { 
+		width: 106%; 
+		height: auto; 
+	}
+
+	@media screen and (max-width: 400px) {
+		
+		
+	}
+</style> 
+ </head>
+ 
+
+<body>
+   <section>
+         
+	 <div><img src="imagens/spidey.jpg" ></div>
+	 <div><img src="imagens/snk.jpg"></div>
+	 <div><img src="imagens/tlou.jpg"></div>
+	 <div><img src="imagens/jon.jpg" ></div>
+	 <div><img src="imagens/bio.jpg" ></div>
+   
+   <footer> 
+	    <p>Copyright &copy; Lanini Blog, todos os direitos reservados.</p>
+	</footer> 
+ 
+ </section>
+</body>
+</html>

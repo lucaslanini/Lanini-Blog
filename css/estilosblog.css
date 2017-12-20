@@ -1,0 +1,173 @@
+/*estilos.css*/
+/*
+Configurações padrões do corpo da página,
+dos principais comandos e do parágrafo
+*/
+* {
+  box-sizing: border-box;
+}
+
+main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+body {
+	margin: 0;
+	padding: 0;
+	
+	font-family: Helvetica, sans-serif;
+	font-size: 62.5%;
+	color: #333;
+}
+
+h1, h2, h3, p, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-size: 1.4em;
+	line-height: 1.4em;
+}
+
+ul {
+	list-style-type: none;
+}
+
+/*
+definição dos links
+*/
+a:link, a:visited {
+	color: white;
+	background: gray;
+}
+/*
+fundo do painel;
+*/
+nav  {
+	background:#41B5E6;
+	float: center; 
+	font-size: 1.4em;
+	}
+.menuitem {
+  background-color:#e5e5e5;
+  padding:8px;
+  margin-top:7px;
+}
+nav h1 {
+    color: #ccc;
+}
+
+nav ul{
+	padding: 10px;
+	margin: 10px;
+	font-size: 2em;
+	font-weight: bolder;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 40px;
+	}
+
+nav li a {
+	color: #333;
+	text-decoration: none;
+}
+/*
+AQUI EM BAIXO É PRA CONTORNAR AS LETRA NO PAINEL DA PAGINA LA;
+*/
+nav li a:link,nav li a:visited{
+	background-color:#41B5E6;}
+
+section{
+	margin: 0 auto;
+	padding: 10px;
+	width:80% ;
+	margin-left:9%;
+	background: #fff;
+	border: 5px solid #00b8e6;
+	overflow:auto;
+	
+}
+
+article, aside {
+	width: 1000px;
+	margin: 20px 0 20px 0;
+	padding: 10px;
+}
+article {
+	float: left;
+}
+
+article h2 {
+	font-size: 2em;
+	margin: 0 0 10px 0;
+}
+
+article p {
+	margin: 0 0 10px 0;
+}
+
+article ul {
+	margin: 20px 0 0 0;
+	font-size: 1.4em;
+}
+
+article ul  li {
+	margin: 0 0 10px 0;
+}
+article img{
+	width:480px;
+	height:300px;
+}
+aside {
+	float: left;
+	background: #eee;
+}
+
+aside h2 {
+	border-bottom: 5px solid #ccc;
+	margin: 0 0 20px 0;
+	padding: 5px;
+}
+aside h3 {
+	border-bottom: 5px solid #ccc;
+	margin: 0 0 20px 0;
+	padding: 5px;
+}
+aside li {
+	margin: 0 10px 20px 0;
+	float: left;
+	border: 5px solid #ddd;
+}
+
+aside img {
+height: 130px;
+width: 120px;
+float: center;
+}
+
+footer {
+	clear: both;
+	background: #eee;
+	padding: 10px;
+	border-top: 2px solid #ddd;
+	text-align: center;
+	color: #777;
+}
+
+video{
+	width: 460px;
+	height: 300px;
+}
+@media only screen and (max-width:620px) {
+  nav, main, aside {
+    width:250%;
+  }
+}
+
+
+
+
