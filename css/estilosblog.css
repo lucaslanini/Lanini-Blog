@@ -47,8 +47,10 @@ fundo do painel;
 */
 nav  {
 	background:#41B5E6;
-	float: center; 
+	float: left; 
 	font-size: 1.4em;
+	width:100%;
+    text-align:center;
 	}
 .menuitem {
   background-color:#e5e5e5;
@@ -99,11 +101,14 @@ article, aside {
 }
 article {
 	float: left;
+	padding:15px;
+	text-align:left;
 }
 
 article h2 {
 	font-size: 2em;
 	margin: 0 0 10px 0;
+	
 }
 
 article p {
@@ -125,6 +130,10 @@ article img{
 aside {
 	float: left;
 	background: #eee;
+	float:left;
+    padding:15px;
+    margin-top:7px;
+  
 }
 
 aside h2 {
@@ -168,6 +177,11 @@ video{
   }
 }
 
+main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
 
 
 
